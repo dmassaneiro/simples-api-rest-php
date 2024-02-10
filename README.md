@@ -37,17 +37,16 @@ composer install
 ## ENDPOINT's E METODOS CRUD API REST
 POST - `http://localhost/simples-api-rest-php/user` <br>
 
+- Request
 `````json
-// Request
 {
   "name": "Maria Jose",
   "email": "maria@email.com",
   "age": 25
 }
 `````
-
+- Response
 `````json
-// Response
 {
   "id": 1,
   "name": "Maria Jose",
@@ -59,8 +58,8 @@ POST - `http://localhost/simples-api-rest-php/user` <br>
 ---
 
 GET - `http://localhost/simples-api-rest-php/users`
+- Response
 ````json
-// Response
 [
   {
     "id": 1,
@@ -81,17 +80,16 @@ GET - `http://localhost/simples-api-rest-php/users`
 ````
 
 PUT - `http://localhost/simples-api-rest-php/user/{id}`
+- Request
 `````json
-// Request
 {
   "name": "João Silva",
   "email": "joao@email.com",
   "age": 30
 }
 `````
-
+- Response
 `````json
-// Response
 {
   "id": 1,
   "name": "João Silva",
@@ -104,14 +102,14 @@ PUT - `http://localhost/simples-api-rest-php/user/{id}`
 
 ---
 DELETE - `http://localhost/simples-api-rest-php/user/{id}`
+- Response
 `````json
-// Response
 "Usuário removido com sucesso"
 ``````
 
 ----
 ## Créditos
 Diego Massaneiro<br>
-Duvidas ou sugestou de projeto entrar em contato:
+Duvidas ou sugestou de projeto entrar em contato,
 email: dmassaneiro95@gmail.com
 
