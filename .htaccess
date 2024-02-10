@@ -1,0 +1,5 @@
+# Responsavel por identificar as paginas sem a necessidade do .php no final da URL
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]

@@ -1,0 +1,11 @@
+# Ignorar diretório vendor
+/vendor/
+
+# Ignorar arquivos de configuração do PhpStorm
+/.idea/
+*.iml
+*.ipr
+*.iws
+/.phpstorm.meta.php
+
+/composer.lock

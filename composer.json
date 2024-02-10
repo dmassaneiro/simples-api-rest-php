@@ -1,0 +1,27 @@
+{
+    "name": "dmassaneiro/simples_api_rest",
+    "description": "Simples API REST com PHP",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Diego Massaneiro",
+            "email": "dmassaneiro95@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        },
+        "files": [
+            "src/config.php"
+        ]
+    },
+    "require": {
+        "flightphp/core": "^3.4"
+    }
+}
